@@ -14,6 +14,7 @@
 		97CF9FF01D832FF200EA1C91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97CF9FEE1D832FF200EA1C91 /* Main.storyboard */; };
 		97CF9FFB1D832FF200EA1C91 /* hitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CF9FFA1D832FF200EA1C91 /* hitTestTests.m */; };
 		97CFA0061D832FF200EA1C91 /* hitTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CFA0051D832FF200EA1C91 /* hitTestUITests.m */; };
+		97CFA0151D83300E00EA1C91 /* myView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CFA0141D83300E00EA1C91 /* myView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		97CFA0011D832FF200EA1C91 /* hitTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hitTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97CFA0051D832FF200EA1C91 /* hitTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hitTestUITests.m; sourceTree = "<group>"; };
 		97CFA0071D832FF200EA1C91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97CFA0131D83300E00EA1C91 /* myView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = myView.h; path = ../myView.h; sourceTree = "<group>"; };
+		97CFA0141D83300E00EA1C91 /* myView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = myView.m; path = ../myView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 				97CF9FE41D832FF200EA1C91 /* AppDelegate.m */,
 				97CF9FE91D832FF200EA1C91 /* ViewController.h */,
 				97CF9FEA1D832FF200EA1C91 /* ViewController.m */,
+				97CFA0131D83300E00EA1C91 /* myView.h */,
+				97CFA0141D83300E00EA1C91 /* myView.m */,
 				97CF9FEC1D832FF200EA1C91 /* Assets.xcassets */,
 				97CF9FEE1D832FF200EA1C91 /* Main.storyboard */,
 				97CF9FF11D832FF200EA1C91 /* Info.plist */,
@@ -269,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97CFA0151D83300E00EA1C91 /* myView.m in Sources */,
 				97CF9FEB1D832FF200EA1C91 /* ViewController.m in Sources */,
 				97CF9FE81D832FF200EA1C91 /* main.m in Sources */,
 				97CF9FE51D832FF200EA1C91 /* AppDelegate.m in Sources */,
